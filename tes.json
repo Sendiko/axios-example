@@ -1,0 +1,143 @@
+{
+    "config": {
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "data": undefined,
+        "env": {
+            "Blob": [Function Blob
+            ],
+            "FormData": [Function FormData
+            ]
+        },
+        "headers": [Object
+        ],
+        "maxBodyLength": -1,
+        "maxContentLength": -1,
+        "method": "get",
+        "timeout": 0,
+        "transformRequest": [
+            [Function transformRequest
+            ]
+        ],
+        "transformResponse": [
+            [Function transformResponse
+            ]
+        ],
+        "transitional": {
+            "clarifyTimeoutError": false,
+            "forcedJSONParsing": true,
+            "silentJSONParsing": true
+        },
+        "url": "https://reqres.in/api/users/3",
+        "validateStatus": [Function validateStatus
+        ],
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN"
+    },
+    "data": {
+        "data": {
+            "avatar": "https://reqres.in/img/faces/3-image.jpg",
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "id": 3,
+            "last_name": "Wong"
+        },
+        "support": {
+            "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+            "url": "https://reqres.in/#support-heading"
+        }
+    },
+    "headers": {
+        "access-control-allow-origin": "*",
+        "age": "671",
+        "cache-control": "max-age=14400",
+        "cf-cache-status": "MISS",
+        "cf-ray": "79b3c16e0df7df74-CGK",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Sat, 18 Feb 2023 03:42:56 GMT",
+        "etag": "W/\"112-EeInfgHWtnxhYRnwgZUB667e024\"",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TFB2noGWVjloOmdc%2BcheA%2BoUDD%2FEsMnR%2BkYktElkeo777GXmImq71sdw1Uao8tNoaOHjzwO5BymdWiHXdGWRPI%2FvikhX3YiqIgbsoC3y3G6tJ1Wv0ik4cg0RYQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "via": "1.1 vegur",
+        "x-powered-by": "Express"
+    },
+    "request": {
+        "DONE": 4,
+        "HEADERS_RECEIVED": 2,
+        "LOADING": 3,
+        "OPENED": 1,
+        "UNSENT": 0,
+        "_aborted": false,
+        "_cachedResponse": undefined,
+        "_hasError": false,
+        "_headers": {
+            "accept": "application/json, text/plain, */*"
+        },
+        "_incrementalEvents": false,
+        "_lowerCaseResponseHeaders": {
+            "access-control-allow-origin": "*",
+            "age": "671",
+            "cache-control": "max-age=14400",
+            "cf-cache-status": "MISS",
+            "cf-ray": "79b3c16e0df7df74-CGK",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Sat, 18 Feb 2023 03:42:56 GMT",
+            "etag": "W/\"112-EeInfgHWtnxhYRnwgZUB667e024\"",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TFB2noGWVjloOmdc%2BcheA%2BoUDD%2FEsMnR%2BkYktElkeo777GXmImq71sdw1Uao8tNoaOHjzwO5BymdWiHXdGWRPI%2FvikhX3YiqIgbsoC3y3G6tJ1Wv0ik4cg0RYQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding",
+            "via": "1.1 vegur",
+            "x-powered-by": "Express"
+        },
+        "_method": "GET",
+        "_perfKey": "network_XMLHttpRequest_https://reqres.in/api/users/3",
+        "_performanceLogger": {
+            "_closed": false,
+            "_extras": [Object
+            ],
+            "_pointExtras": [Object
+            ],
+            "_points": [Object
+            ],
+            "_timespans": [Object
+            ]
+        },
+        "_requestId": null,
+        "_response": "{\"data\":{\"id\":3,\"email\":\"emma.wong@reqres.in\",\"first_name\":\"Emma\",\"last_name\":\"Wong\",\"avatar\":\"https://reqres.in/img/faces/3-image.jpg\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
+        "_responseType": "",
+        "_sent": true,
+        "_subscriptions": [],
+        "_timedOut": false,
+        "_trackingName": "unknown",
+        "_url": "https://reqres.in/api/users/3",
+        "readyState": 4,
+        "responseHeaders": {
+            "access-control-allow-origin": "*",
+            "age": "671",
+            "cache-control": "max-age=14400",
+            "cf-cache-status": "MISS",
+            "cf-ray": "79b3c16e0df7df74-CGK",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Sat, 18 Feb 2023 03:42:56 GMT",
+            "etag": "W/\"112-EeInfgHWtnxhYRnwgZUB667e024\"",
+            "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TFB2noGWVjloOmdc%2BcheA%2BoUDD%2FEsMnR%2BkYktElkeo777GXmImq71sdw1Uao8tNoaOHjzwO5BymdWiHXdGWRPI%2FvikhX3YiqIgbsoC3y3G6tJ1Wv0ik4cg0RYQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding",
+            "via": "1.1 vegur",
+            "x-powered-by": "Express"
+        },
+        "responseURL": "https://reqres.in/api/users/3",
+        "status": 200,
+        "timeout": 0,
+        "upload": {},
+        "withCredentials": true
+    },
+    "status": 200,
+    "statusText": undefined
+}
